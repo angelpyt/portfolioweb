@@ -1259,4 +1259,28 @@ textarea:focus {
         font-size: 30px;
         line-height: 30px;
     }
+    .top-bar {
+        display:none!important;
+    }
+    .top-bar1 {
+        display:none!important;
+    }
+    .top-barf {
+        display:none!important;
+    }
+    .top-bard {
+        display:none!important;
+    }
+    .top-bars {
+        display:none!important;
+    }
+    .top-bark {
+        display:none!important;
+    }
+    .top-barmi {
+        display:none!important;
+    }
+    .top-baryo {
+        display:none!important;
+    }
 }
