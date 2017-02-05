@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Carnival Cruise App Redesign</title>
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- modernizr -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end Preloader -->
+
+    <div class="container-fluid">
+       <!-- box-header -->
+        <header class="box-header">
+            <div class="box-logo">
+                <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
+            </div>
+            <!-- box-primary-nav-trigger -->
+        </header>
+        <!-- end box-header -->
+        
+        <!-- nav -->
+          <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="index.html">Portfolio</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="code.html">Code</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="img/resume.pdf">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <!-- end nav -->
+    </div>
+    
+    <!-- top-bar -->
+    <div class="top-bara">
+        <h1><br></h1>
+        <p><br></p>
+    </div>
+    <!-- end top-bar -->
+    
+    <!-- main-container -->
+    <div class="container main-container">
+        <!--<div class="col-md-12">
+            <img src="http://placehold.it/1920x1080" alt="" class="img-responsive" />
+            <div class="h-30"></div>
+        </div>-->
+
+        <div class="col-md-9">
+            <h3 class="text-uppercase">Overview</h3><br>
+            <h5>This is a iPhone application designed for Carnival Cruise Lines. The goal of this app is to have users be able to easily discover what events are available in the cruise based on their interests, and book them, as well as provide to the customer control of how they use their leisure time and what they do while aboard the ship.</h5>
+            <div class="h-30"></div>
+        </div>
+        <div class="col-md-3">
+            <ul class="cat-ul">
+                <br><br>
+                <li><i class="ion-ios-circle-filled"></i> DATE: Mar - Jun 2016</li>
+                <li><i class="ion-ios-circle-filled"></i> CREATED WITH: Sketch</li>
+                <li><i class="ion-ios-circle-filled"></i> ROLE: Prototype, User testing, Visual Design</li>
+            </ul>
+            <div class="h-10"></div>
+        </div>
+
+        <div class="col-md-12">
+            <h4>Problem</h4>
+            <p>Carnival has many potential customers that now bypass traveling by cruise ships as vacationers have changed how they plan trips. In response to this, the cruise line industry has tried to make the cruise ship itself a highlight destination with events and attractions to entice travelers. However, due to the sheer volume of activities and events provided, it is difficult for guests to know what is available and what would most interest them. </p>
+        </div>
+
+
+
+        <div class="col-md-12">
+            <br>
+            <h3 class="text-uppercase">Design Process</h3><br>
+            <h4>Personas</h4>
+            <p>We are given two persona by the instructor and design a solution for the following consumption. And our goals is to that will simplify discovering for the two target personas. Activities should be personalized based on their persona and interests. The app should guide users in discovering events and activities, then ordering a reservation for each event. Also we want to make sure there are ways for people traveling together to share and collaborate.</p>
+            <div class="h-30"></div>
+            <a><img class="img-responsive" src="img/4/persona.png"  alt=""></a>
+            <br>
+            <h4>Whiteboarding</h4>
+            <p>The target users for the app are family travelers and solo travelers, therefore different user groups will have different features according to their identity. We first brainstormed the features that are necessary to have.</p>
+            
+            <h5>Main features</h5>
+            <li>Suggest activities based on user’s interests. </li>
+            <li>Allow for monitoring budget and spendings on the ship. </li>
+            <li>Allow users to connect to other people on the cruise and form “groups” on the app. </li> 
+            <li>Allow users to view who is attending each event. </li>
+            <li>Allow for scheduling events for kids, and provide contact to event managers. </li>
+            <li>App is specifically focused and tailored for any one cruise ship. (Only works on the ship’s wifi). </li>
+            <li>Allow users to add payment information. </li><br>
+
+            <a><img class="img-responsive" src="img/4/w.png"  alt=""></a>
+
+            <br><br><br>
+            <h4>Paper Prototype</h4>
+            <p>After some consideration we decided to remove many features that we thought were nice-to-have, but were not necessarily must-haves to meet the needs of our two target users.</p>
+            <a><img class="img-responsive" src="img/4/b.png" style="width:60%; height:40%" alt=""></a>
+            <h5>Features Removed: Budgeting</h5>
+            <li>After having a debate about the value that a budget feature would give users, we decided that it might be a feature unused by users and is outside of the scope of our design</li>
+            <li>If users are very concerned about their spending, they most likely have another app (Bank account app, Mint, etc.) that manages their finances</li>
+            <li>We still want to give users the option to be price conscious by allowing them to sort events/activities by price, but we don’t want to make their decisions for them</li>
+
+            <h5>Features Removed: Relationship Status/Profile</h5>
+            <li>We decided to remove the user profile feature because we felt that it was a nice feature to have, but was not a must-have</li>
+            <li>We felt that it was our goal to get users to meet each other at events/activities, rather than allowing them to meet online before in-person because the experience of discovering individuals on the ship would be more organic</li>
+            <li>Didn’t want to mimic Facebook</li>
+
+            <h5>Features Removed: “Who’s Attending”</h5>
+            <li>We removed the “Who’s Attending?” feature from the event information page because we felt like it wasn’t a must have feature.</li>
+            <li>We felt like this feature wouldn’t add much value to the user experience because users will be attending events based on their interests and group’s plans. Their decisions will not be influenced by the guest list very often.</li>
+
+            <h5>Features Removed: Group Scheduling</h5>
+            <p>There would be too much information on the schedule page if a user was in multiple groups. We want to give users flexibility and freedom. They can be in multiple groups and also participate in activities alone. If a user schedules an event as a group, not everyone in the group may want to go. We want to help users make their decisions, but not make them for them</p>
+
+            <h5>Features Kept: Kids or Nah?</h5>
+            <p>Families have more information to enter in order to get the parents’ and kids’ interests, while solo travellers just have to enter info for themselves. We want to allow the families to keep this functionality without cluttering the app for the solo-traveller. So we have different login processes for each.</p>
+
+            <h5>Features Kept: Name & Picture</h5>
+            <li>If each user has a name and picture, then the group chat feature will become a more intimate experience. </li>
+            <li>Having pictures for the kids on file will allow event managers to identify the kids to their parents</li>
+
+            <h5>Features Kept: Interests</h5>
+            <li>Solo travellers want to meet new people with similar interests, so having the app suggest events based on interests will mean that the solo traveler can find others at these events.</li>
+            <li>For families, this feature can help customize the experience for the kids and the parents</li>
+
+            <h5>Features Kept: Activity Suggestion & Sort By $$$</h5>
+            <li>The homepage suggestions are the primary way of integrating the user interests.</li>
+            <li>Replaced the budget feature with an option to sort by price. This is a simple way to help price-conscious users find cheaper events.</li>
+
+            <h5>Features Kept: Activity Details -- contact information</h5>
+            <li>Allows users to decide for themselves if they want to do the event so they don’t have to blindly follow the suggestion</li>
+            <li>Allows parents to contact the manager of the event if they need to contact their kid</li>
+
+            <h5>Features Kept: Groups</h5>
+            <li>Solo travelers want a way to communicate with other people on the ship, so we’ve integrated a chat feature that allows them to have conversations as a group. </li>
+            <li>Users might not stick with one group of people. They can create/join groups with people that they meet on the ship.</li>
+
+            <h5>Features Kept: Schedule</h5>
+            <li>After users RSVP to an event, it automatically gets added to their daily schedule.</li>
+            <li>Users can easily view their activities for the day</li>
+            <li>Parents can click to view their own schedule or their children’s schedule</li>
+            <br>
+            <a><img class="img-responsive" src="img/4/p.png" style="height: 80% ;width: 90%;" alt=""></a>
+
+            <br>
+            <h4>User Flow</h4>
+            <a><img class="img-responsive" src="img/4/u.png" alt=""></a>
+            <br><br><br>
+            <h3>Wireframes</h3>
+            <p>Based on the iteration of features of the application, I created a higher fidelity prototype followed with the revised paper prototype. It aims to simplify user flows when possible, enhance user experience through feedback and other cues and give users more freedom.</p><br>
+            <a><img class="img-responsive" src="img/4/y.png" alt=""></a>
+
+        </div>
+    </div>
+    <!-- end main-container -->
+
+
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <p class="copyright">Designed and coded by Yutong Pan @ 2017</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+    
+    <!-- back to top -->
+    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
+    <!-- end back to top -->
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animated-headline.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+
+    <!--  custom script -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
