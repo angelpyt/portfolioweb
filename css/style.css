@@ -951,6 +951,16 @@ footer img {
     text-align: center;
 }
 
+.top-barko {
+    color: #333;
+    padding: 150px 0 150px;
+    background: url(../img/kosmos.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
 
 .top-bar h1 {
     font-size: 60px;
