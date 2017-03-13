@@ -29,7 +29,7 @@ body {
     height: 100%;
     font-family: 'Poppins', sans-serif;
     line-height: 1.8;
-    color: #999
+    color: #696969
 }
 
 .no-padding {
@@ -84,6 +84,10 @@ h1 {
 
 h3 {
     color: #393939;
+}
+
+h4 {
+    color: #171717;
 }
 
 h5 {
@@ -934,7 +938,7 @@ footer img {
 .top-barmi {
     color: #333;
     padding: 150px 0 150px;
-    background: url(../img/cov.png);
+    background: url(../img/notnow.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -954,7 +958,7 @@ footer img {
 .top-barko {
     color: #333;
     padding: 150px 0 150px;
-    background: url(../img/kosmos.png);
+    background: url(../img/koscov.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
