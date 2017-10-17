@@ -20,6 +20,9 @@
 ==================================================*/
 
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:300italic,300,400italic,400,700italic,700,900italic,900);
 
 /* General
 ==================================================*/
@@ -84,6 +87,7 @@ h1 {
 
 h3 {
     color: #393939;
+    font: italic 500 2.1em/1 "essonnes-display", georgia, "times new roman", times, serif;
 }
 
 h4 {
@@ -95,6 +99,17 @@ h5 {
     line-height: 1.8;
 }
 
+.project-title h1 {
+	font: italic 400 3em/1 "essonnes-display", georgia, "times new roman", times, serif;
+}
+
+.project-title span {
+	opacity: 0.4;
+	/*margin-top: 0.1em;*/
+	font-size: 0.7em;
+	display: block;
+	font-style: normal;
+}
 
 /* preloader
 ==================================================*/
@@ -105,7 +120,7 @@ h5 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     /* change if the mask should be a color other than white */
     z-index: 1000;
     /* makes sure it stays on top */
@@ -123,8 +138,8 @@ h5 {
 }
 
 .spinner {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     position: relative;
     margin: 100px auto;
 }
@@ -135,7 +150,7 @@ h5 {
     height: 100%;
     border-radius: 50%;
     background-color: #9932cc;
-    opacity: 0.6;
+    opacity: 0.5;
     position: absolute;
     top: 0;
     left: 0;
@@ -835,6 +850,40 @@ footer img {
     margin: 0 auto;
 }
 
+.footer-onward{
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    color: #603F17;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+}
+
+#underline a:hover{
+    text-decoration: none;
+}
+
+.footer-backward{
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    color: #2A0F40;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+}
+
+.footer-title{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #FFFFFF;
+    line-height: 40px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    
+}
 
 /* backto top
 ==================================================*/
@@ -850,7 +899,7 @@ footer img {
     right: 10px;
     text-align: center;
     color: #fff;
-    background: rgba(255, 191, 0, 0.8);
+    background: #9932cc;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -867,7 +916,7 @@ footer img {
 .cd-top.cd-is-visible {
     /* the button becomes visible */
     visibility: visible;
-    opacity: 1;
+    opacity: .5;
 }
 
 .cd-top.cd-fade-out {
@@ -1198,7 +1247,17 @@ textarea:focus {
     color: #9932cc;
 }
 
+.big-box {
+  padding: 30px;
+  height: auto;
+  overflow: auto;
+  border: 1px solid #E7E7E7;
+}
 
+.col-md-12 {
+    width: 67%;
+    margin-left: 15%;
+}
 
 
 /* Responsive media queries
