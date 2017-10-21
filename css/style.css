@@ -75,6 +75,9 @@ a {
     font-size: 11px;
 }
 
+a:visited {
+  color: #9932cc;
+}
 
 /* typography
 ==================================================*/
@@ -1008,6 +1011,16 @@ footer img {
     color: #333;
     padding: 150px 0 150px;
     background: url(../img/koscov.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+}
+
+.top-barkla {
+    color: #333;
+    padding: 150px 0 150px;
+    background: url(../img/agcover.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
